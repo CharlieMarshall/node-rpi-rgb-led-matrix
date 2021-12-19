@@ -22,7 +22,6 @@
 #include <graphics.h>
 
 using namespace rgb_matrix;
-using rgb_matrix::GPIO;
 
 #define SCROLL_TO_LEFT 		0x01
 #define SCROLL_TO_RIGHT 	0x02
@@ -84,7 +83,6 @@ class LedMatrix : public node::ObjectWrap
 
 	private:
 
-	GPIO io;
 	RGBMatrix* matrix;
 	FrameCanvas* canvas;
 

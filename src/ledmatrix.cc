@@ -23,7 +23,6 @@
 using namespace v8;
 using namespace node;
 using namespace rgb_matrix;
-using rgb_matrix::GPIO;
 
 Nan::Persistent<Function> LedMatrix::constructor;
 std::map<std::string, rgb_matrix::Font> LedMatrix::fontMap;

@@ -11,7 +11,6 @@
 			"type": "static_library",
 			"sources": [
 
-			"./external/matrix/lib/transformer.cc",
 			"./external/matrix/lib/thread.cc",
 			"./external/matrix/lib/pixel-mapper.cc",
 			"./external/matrix/lib/options-initialize.cc",
